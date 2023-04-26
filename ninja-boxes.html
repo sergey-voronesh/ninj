@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Ninja Labs</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="back-wrapper">
+			<header class="header container">
+				<a href="https://ninja-labs.xyz/" class="header__logo logo">
+					<img src="img/icons/logo.png" alt="logo">
+					<span>NINJA LABS</span>
+				</a>
+				<div class="header__icon">
+					<span></span>
+				</div>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li>
+							<a href="./index.html" class="menu__link">Roadmap</a>
+						</li>
+						<li>
+							<a href="./index.html" class="menu__link">Team</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link">Ninja Boxes</a>
+						</li>
+						<li>
+							<a href="./collaborations.html" class="menu__link">Collaborations</a>
+						</li>
+						<li>
+							<a href="./lottery-house.html" class="menu__link">Lottery House</a>
+						</li>
+						<li>
+							<a href="./staking.html" class="menu__link">Staking</a>
+						</li>
+						<li>
+							<a href="./launchpad.html" class="menu__link">Launchpad</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<!-- <div class="nft-slider">
+					<div class="nft-slider__content">
+						<div class="nft-slider__container swiper-container">
+							<div class="nft-slider__wrapper swiper-wrapper">
+								<div class="nft-slider__slide swiper-slide">
+									<div class="nft-slider__name">Name NFT</div>
+									<a href="#" class="nft-slider__image">
+										<img src="img/cases/item.jpg" alt="nft">
+									</a>
+								</div>
+								<div class="nft-slider__slide swiper-slide">
+									<div class="nft-slider__name">Name NFT</div>
+									<a href="#" class="nft-slider__image">
+										<img src="img/cases/item.jpg" alt="nft">
+									</a>
+								</div>
+								<div class="nft-slider__slide swiper-slide">
+									<div class="nft-slider__name">Name NFT</div>
+									<a href="#" class="nft-slider__image">
+										<img src="img/cases/item.jpg" alt="nft">
+									</a>
+								</div>
+								<div class="nft-slider__slide swiper-slide">
+									<div class="nft-slider__name">Name NFT</div>
+									<a href="#" class="nft-slider__image">
+										<img src="img/cases/item.jpg" alt="nft">
+									</a>
+								</div>
+								<div class="nft-slider__slide swiper-slide">
+									<div class="nft-slider__name">Name NFT</div>
+									<a href="#" class="nft-slider__image">
+										<img src="img/cases/item.jpg" alt="nft">
+									</a>
+								</div>
+								<div class="nft-slider__slide swiper-slide">
+									<div class="nft-slider__name">Name NFT</div>
+									<a href="#" class="nft-slider__image">
+										<img src="img/cases/item.jpg" alt="nft">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+						<div class="nft-slider__btns">
+							<a href="#" class="nft-slider__btn">CLAME</a>
+							<a href="#" class="nft-slider__btn">SPIN</a>
+							<a href="#" class="nft-slider__btn">REFRESH</a>
+						</div>
+					</div>
+					<div class="nft-slider__text">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+					</div>
+				</div> -->
+				<div class="cases-slider container">
+					<div class="open-case__indicator open-case__indicator_top"></div>
+					<div class="open-case__indicator open-case__indicator_bottom"></div>
+					<a href="#" class="cases-slider__btn cases-slider__btn_claim">CLAIM</a>
+					<div class="open-case__opening">
+						<svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px"
+							viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+							<path fill="#fff"
+								d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z">
+								<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25"
+									to="360 25 25" dur="0.6s" repeatCount="indefinite" />
+							</path>
+						</svg>
+						Opening
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="open-case__wrapper">
+						<div class="open-case">
+							<div class="open-case__track">
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>10</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.01</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.3</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift4.png" alt="gift" />
+									<div class="open-case__name">
+										<span>1</span>
+										WL
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>20</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.02</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.5</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>30</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.03</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>1</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>45</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.05</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>2</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>60</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.1</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>3</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>80</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.2</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>5</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>100</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.3</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>10</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>140</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.4</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>13</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>200</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.5</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>15</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>250</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>0.7</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>25</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>300</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>1</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>35</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>400</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>1.2</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>40</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>500</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift2.png" alt="gift" />
+									<div class="open-case__name">
+										<span>1.5</span>
+										SOLANA
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift3.png" alt="gift" />
+									<div class="open-case__name">
+										<span>45</span>
+										USDT
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>600</span>
+										$NINJAS
+									</div>
+								</div>
+								<div class="open-case__slide">
+									<img src="img/cases/gift1.png" alt="gift" />
+									<div class="open-case__name">
+										<span>800</span>
+										$NINJAS
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class=" cases-slider__content">
+						<div class="cases-slider__top-text-wrapper">
+							<div class="cases-slider__top-text">
+								Try your luck and open box for different prizes.
+								Box includes different items such as SOL, USDT, $NINJA, whitelists.
+							</div>
+						</div>
+						<div class="cases-slider__container swiper-container">
+							<div class="cases-slider__wrapper swiper-wrapper">
+								<div class="cases-slider__slide swiper-slide">
+									<img src="img/cases/case.png" alt="case">
+								</div>
+								<div class="cases-slider__slide swiper-slide">
+									<img src="img/cases/case2.png" alt="case">
+								</div>
+								<div class="cases-slider__slide swiper-slide">
+									<img src="img/cases/case3.png" alt="case">
+								</div>
+							</div>
+						</div>
+						<div class="cases-slider__btns">
+							<a href="#" class="cases-slider__btn cases-slider__btn_1 cases-slider__btn_mini">1</a>
+							<a href="#" class="cases-slider__btn cases-slider__btn_2 cases-slider__btn_mini">2</a>
+							<a href="#" class="cases-slider__btn cases-slider__btn_3 cases-slider__btn_mini">3</a>
+							<a href="#" class="cases-slider__btn cases-slider__btn_spin">SPIN</a>
+						</div>
+					</div>
+					<div class="cases-slider__text">
+						Try your luck and spin Ninja Box
+					</div>
+				</div>
+				<div class="block block-3">
+					<div class="block__overlay"></div>
+					<div class="block__content _anim-items _anim-no-hide">
+						<div class="block__headline">Ninjas have ancient treasures which they are ready to share. Try to open
+							some boxes and watch
+							what they have hidden there. Maybe you are lucky enough to find valuable things there.
+						</div>
+						<div class="block__btns">
+							<a href="https://discord.gg/YuuygP6vr9" target="_blank" class="block__btn btn-img"></a>
+							<a href="https://twitter.com/NinjaLabsNFT" target="_blank"
+								class="block__btn btn-img btn-img_2"></a>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="footer__content container">
+				<div class="footer__left">
+					<a href="https://ninja-labs.xyz/" class="footer__logo logo">
+						<img src="img/icons/logo.png" alt="logo">
+						<span>NINJA LABS</span>
+					</a>
+					<nav class="footer__menu menu">
+						<ul class="menu__list">
+							<li>
+								<a href="https://ninja-labs.xyz/#road" class="menu__link">Roadmap</a>
+							</li>
+							<li>
+								<a href="https://ninja-labs.xyz/#team" class="menu__link">Team</a>
+							</li>
+							<li>
+								<a href="#" class="menu__link">Ninja Boxes</a>
+							</li>
+							<li>
+								<a href="collaborations" class="menu__link">Collaborations</a>
+							</li>
+							<li>
+								<a href="lottery-house" class="menu__link">Lottery House</a>
+							</li>
+							<li>
+								<a href="staking" class="menu__link">Staking</a>
+							</li>
+							<li>
+								<a href="launchpad" class="menu__link">Launchpad
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__btns">
+					<a href="https://discord.gg/YuuygP6vr9" target="_blank" class="footer__btn btn-img"></a>
+					<a href="https://twitter.com/NinjaLabsNFT" target="_blank" class="footer__btn btn-img btn-img_2"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="popup-mini popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<div class="popup__close"></div>
+				<div class="popup__headline">
+					Ninja Boxes are not live
+				</div>
+				<div class="popup__ok-wrapper">
+					<a href="#" class="popup__btn-ok">Okay</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
